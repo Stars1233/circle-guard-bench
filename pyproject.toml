@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "circleguardbench"
+version = "0.1.0"
+description = ""
+authors = ["Sergei Bratchikov <sergey@whitecircle.ai>", "Konstantin Korolev <konstantin@whitecircle.ai>"]
+readme = "README.md"
+packages = [
+    {include = "circleguardbench"}
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+datasets = "^3.3.2"
+huggingface-hub = "^0.30.2"
+jupyter = "^1.1.1"
+tenacity = "^9.0.0"
+dotenv = "^0.9.9"
+openai = "^1.66.3"
+scikit-learn = "^1.6.1"
+click = "^8.1.8"
+jinja2 = "^3.1.6"
+transformers = "^4.51.3"
+vllm = "^0.8.5"
+
+
+[tool.poetry.extras]
+vllm = ["vllm"]
+sglang = ["sglang"]
+transformers = ["transformers"]
+
+[tool.poetry.group.vllm.dependencies]
+vllm = "^0.8.2"
+torchao = "^0.9.0"
+
+[tool.poetry.group.sglang.dependencies]
+sglang = "^0.4.4.post2"
+sgl-kernel = "^0.0.6"
+decord = "^0.6.0"
+flashinfer-python = "^0.2.4"
+fastapi = "^0.115.12"
+orjson = "^3.10.16"
+partial-json-parser = "^0.2.1.1.post5"
+hf-transfer = "^0.1.9"
+llguidance = "^0.7.11"
+interegular = "^0.3.3"
+torchao = "^0.9.0"
+
+[tool.poetry.group.transformers.dependencies]
+transformers = "^4.40.0"
+torch = "^2.4.0"
+
+[tool.poetry.scripts]
+guardbench = "circleguardbench.cli:cli"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

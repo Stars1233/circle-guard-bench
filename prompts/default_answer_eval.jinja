@@ -1,0 +1,7 @@
+{%- set ns = namespace(last_model_message="") -%}
+{%- for msg in dialog -%}
+    {%- if msg.role == "Model" -%}
+        {%- set ns.last_model_message = msg.message -%}
+    {%- endif -%}
+{%- endfor -%}
+{{ ns.last_model_message }}

@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Llama-Guard-3-8B (Meta)",
+    "type": "llama_guard",
+    "eval_on": "all",
+    "inference_engine": "vllm",
+    "params": {
+      "model": "meta-llama/Llama-Guard-3-8B",
+      "dtype": "bfloat16",
+      "max_model_len": 16384
+    },
+    "max_concurrency": 20
+  },
+  {
+    "name": "Selene-1-Mini-Llama-3.1-8B (Atla)",
+    "type": "atla_selene",
+    "eval_on": "all",
+    "inference_engine": "vllm",
+    "params": {
+      "model": "AtlaAI/Selene-1-Mini-Llama-3.1-8B",
+      "dtype": "bfloat16",
+      "max_model_len": 16384
+    },
+    "max_concurrency": 20
+  },
+  {
+    "name": "gemma-3-4b-it-vllm (Strict)",
+    "type": "llm_regexp",
+    "eval_on": "all",
+    "inference_engine": "vllm",
+    "params": {
+      "model": "google/gemma-3-4b-it",
+      "dtype": "bfloat16",
+      "max_model_len": 16384
+    },
+    "max_concurrency": 20,
+    "use_cot": false
+  },
+  {
+    "name": "gpt-4o-mini (CoT)",
+    "type": "llm_regexp",
+    "eval_on": "all",
+    "inference_engine": "openai_api",
+    "params": {
+      "api_model_name": "openai/gpt-4o-mini",
+      "endpoint": "https://openrouter.ai/api/v1/"
+    },
+    "max_concurrency": 20,
+    "use_cot": true
+  },
+  {
+    "name": "gpt-4o-mini (CoT, SO)",
+    "type": "llm_so",
+    "eval_on": "all",
+    "inference_engine": "openai_api",
+    "params": {
+      "api_model_name": "openai/gpt-4o-mini",
+      "endpoint": "https://openrouter.ai/api/v1/"
+    },
+    "max_concurrency": 20,
+    "use_cot": true
+  },
+  {
+    "name": "gpt-4o-mini (Strict)",
+    "type": "llm_regexp",
+    "eval_on": "all",
+    "inference_engine": "openai_api",
+    "params": {
+      "api_model_name": "openai/gpt-4o-mini",
+      "endpoint": "https://openrouter.ai/api/v1/"
+    },
+    "max_concurrency": 20,
+    "use_cot": false
+  }
+]
