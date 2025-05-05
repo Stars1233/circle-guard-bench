@@ -2,7 +2,7 @@
 
 # CircleGuardBench - A full-fledged benchmark for evaluating protection capabilities of AI models
 
-**CircleGuardBench** is a first-of-its-kind benchmark for **evaluating the protection capabilities** of large language model (LLM) guard systems. It tests how well guard models block harmful content, resist jailbreaks, avoid false positives, and operate efficiently in real-time environments on a **taxonomy close to real-world data**.
+**CircleGuardBench** is the first-of-its-kind benchmark for **evaluating the protection capabilities** of large language model (LLM) guard systems. It tests how well guard models block harmful content, resist jailbreaks, avoid false positives, and operate efficiently in real-time environments on a **taxonomy close to real-world data**.
 
 ## What It Measures
 - Harmful content detection across 17 critical risk categories
