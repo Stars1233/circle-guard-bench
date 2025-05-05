@@ -219,7 +219,7 @@ CircleGuardBench covers 17 categories of harmful content:
 
 ## About the Authors
 
-CircleGuardBench is developed by White Circle, a company focused on AI safety and responsible AI deployment. White Circle builds tools, benchmarks, and evaluation methods to help developers and researchers create safer, more reliable large language models.
+CircleGuardBench is developed by [White Circle](https://whitecircle.ai), a company focused on AI safety and responsible AI deployment. White Circle builds tools, benchmarks, and evaluation methods to help developers and researchers create safer, more reliable large language models.
 
 ## Contributing
 
