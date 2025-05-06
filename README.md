@@ -2,7 +2,7 @@
 
 # CircleGuardBench - A full-fledged benchmark for evaluating protection capabilities of AI models
 
-**CircleGuardBench** is the first-of-its-kind benchmark for **evaluating the protection capabilities** of large language model (LLM) guard systems. It tests how well guard models block harmful content, resist jailbreaks, avoid false positives, and operate efficiently in real-time environments on a **taxonomy close to real-world data**.
+**CircleGuardBench** is the first-of-its-kind benchmark for **evaluating the protection capabilities** of large language model (LLM) guard systems. It tests how well guard models block harmful content, resist jailbreaks, avoid false positives, and operate efficiently in real-time environments on a **taxonomy close to real-world data**. Created by [White Circle](https://whitecircle.ai?utm_source=github&utm_medium=organic&utm_campaign=circleguardbench_launch&utm_content=repo)
 
 ## What It Measures
 - Harmful content detection across 17 critical risk categories
@@ -219,7 +219,7 @@ CircleGuardBench covers 17 categories of harmful content:
 
 ## About the Authors
 
-CircleGuardBench is developed by [White Circle](https://whitecircle.ai), a company focused on AI safety and responsible AI deployment. White Circle builds tools, benchmarks, and evaluation methods to help developers and researchers create safer, more reliable large language models.
+CircleGuardBench is developed by [White Circle](https://whitecircle.ai?utm_source=github&utm_medium=organic&utm_campaign=circleguardbench_launch&utm_content=repo), a company focused on AI safety and responsible AI deployment. White Circle builds tools, benchmarks, and evaluation methods to help developers and researchers create safer, more reliable large language models.
 
 ## Contributing
 
