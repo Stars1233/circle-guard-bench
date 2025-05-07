@@ -462,7 +462,7 @@ class Leaderboard:
 
     def show_leaderboard(
         self,
-        bench_name: str = "guardbench_dataset_1k_public",
+        bench_name: str = "circleguardbench_public",
         use_categories: bool = True,
         sort_by: str = "accuracy",
         metric_type: Optional[str] = None,
