@@ -24,7 +24,7 @@ pass_context = click.make_pass_decorator(GuardbenchContext, ensure=True)
 @click.option(
     "--bench_data",
     "-bd",
-    default="whitecircle-ai/guardbench_dataset_1k_public",
+    default="whitecircle-ai/circleguardbench_public",
     help="Path to the dataset used for evaluation, must follow GuardBench format",
 )
 @click.option(
