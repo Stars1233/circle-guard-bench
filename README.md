@@ -189,7 +189,9 @@ The CircleGuardBench leaderboard provides a detailed overview of the performance
 ### Example of leaderboard without categories
 ![CircleGuardBench Leaderboard Example](resources/5.png)
 
-## Dataset Categories
+## Dataset and Categories
+
+The dataset used for the benchmark (public part) is located on [Huggingface](https://huggingface.co/datasets/whitecircle-ai/circleguardbench_public), to access it you will need to accept the terms of our [license](https://whitecircle.notion.site/White-Circle-Responsible-Use-License-v1-0-1e2c3dbe9790807daee2fb8d4dfbd2ec) for use.
 
 CircleGuardBench covers 17 categories of harmful content:
 
