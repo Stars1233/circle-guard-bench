@@ -4,6 +4,11 @@
 
 **CircleGuardBench** is the first-of-its-kind benchmark for **evaluating the protection capabilities** of large language model (LLM) guard systems. It tests how well guard models block harmful content, resist jailbreaks, avoid false positives, and operate efficiently in real-time environments on a **taxonomy close to real-world data**. Created by [White Circle](https://whitecircle.ai?utm_source=github&utm_medium=organic&utm_campaign=circleguardbench_launch&utm_content=repo)
 
+## Useful Links
+- [HuggingFace Leaderboard](https://huggingface.co/spaces/whitecircle-ai/circle-guard-bench)
+- [HuggingFace Blogpost](https://huggingface.co/blog/whitecircle-ai/circleguardbench)
+- [Twitter Announcement](https://x.com/whitecircle_ai/status/1920094991960997998)
+
 ## What It Measures
 - Harmful content detection across 17 critical risk categories
 - Jailbreak resistance using adversarial prompt variations
