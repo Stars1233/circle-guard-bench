@@ -23,6 +23,7 @@ vllm = "0.8.4"
 h11 = "^0.16.0"
 setuptools = "79.0.0"
 tornado = "6.5.1"
+requests = "2.32.4"
 
 
 
